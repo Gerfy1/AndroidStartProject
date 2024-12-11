@@ -7,6 +7,10 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.w3c.dom.Text;
+
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     //Atributo
@@ -24,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gerarFrase (View view){
-
+        TextView texto = findViewById(R.id.textResultado);
+        int numeroAleatorio = new Random().nextInt(3);
+        String frase = frases[numeroAleatorio];
+        texto.setText(frase);
     }
 
     public void exibirTodas (View view){
