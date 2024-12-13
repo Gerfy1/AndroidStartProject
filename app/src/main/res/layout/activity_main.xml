@@ -22,10 +22,12 @@
 
     <Button
         android:id="@+id/button"
-        style="@android:style/Widget.DeviceDefault.Button"
+        style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
+        android:clickable="true"
         android:onClick="gerarFrase"
         android:text="Gerar Frase"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,10 +36,11 @@
 
     <Button
         android:id="@+id/button2"
-        style="@android:style/Widget.DeviceDefault.Button"
+        style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@color/design_default_color_primary"
         android:onClick="exibirTodas"
         android:text="Exibir Todas"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +54,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Resultado"
+        android:fontFamily="sans-serif"
+        android:text="Resultado:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

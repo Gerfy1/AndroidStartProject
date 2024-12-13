@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
     //Atributo
     String[] frases = {
-            "Frase 01",
-            "Frase 02",
-            "Frase 03",
+            "Frase 01: \nAmanhã será um dia melhor!",
+            "Frase 02: \nDepois de amanhã talvez será um dia melhor!",
+            "Frase 03: \nQuem sabe na quinta será um bom dia! ",
     };
 
     @Override
