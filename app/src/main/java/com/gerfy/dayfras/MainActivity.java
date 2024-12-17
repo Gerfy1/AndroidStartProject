@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.gerfy.dayfras.classes.ContaBancaria;
+
 import org.w3c.dom.Text;
 
 import java.util.Random;
@@ -44,5 +46,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         texto.setText(textoResultado);
+
+        ContaBancaria contaBancaria = new ContaBancaria();
+
     }
 }
