@@ -1,10 +1,9 @@
 package com.gerfy.dayfras.classes;
 
-public class Cliente {
-
+public class Cliente extends ContaBancaria{
     void teste(){
-        ContaBancaria conta = new ContaBancaria();
-
+        this.sacar();
+        this.saldo = 10;
     }
 
 }

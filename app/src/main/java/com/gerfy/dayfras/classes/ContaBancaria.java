@@ -5,7 +5,7 @@ public class ContaBancaria {
 
 
     //Atributos
-    private double saldo = 0;
+    protected double saldo = 0;
 
 
     //Métodos
